@@ -62,7 +62,7 @@ app/
 public/
  ├─ images/           # Hero images, product images, etc.
 
-tailwind.config.js    # Tailwind configuration
+eslint.config.mjs     # Eslint configuration
 package.json          # Project dependencies
 README.md             # This file
 ```
