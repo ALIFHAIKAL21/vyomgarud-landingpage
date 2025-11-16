@@ -19,7 +19,7 @@ export default function Hero() {
   }, [images.length]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
       {/* Background Slideshow */}
       {images.map((src, i) => (
         <motion.div
